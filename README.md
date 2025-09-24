@@ -316,10 +316,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👨‍💻 Developer
 
 **Brian Oyaro**
-- 🌐 **Website:** [Portfolio Link]
-- 📧 **Email:** [brian.oyaro@example.com]
-- 💼 **LinkedIn:** [LinkedIn Profile]
-- 🐦 **Twitter:** [@BrianOyaro]
+- 🌐 **Website:** [https://brianoyaro.github.io/Portfolio/]
+- 📧 **Email:** [brianoyaro20002gmail.com]
+- 💼 **LinkedIn:** [www.linkedin.com/in/brianmokouaoyaro]
+- 🐦 **Twitter:** [@BrianOyaro9]
 
 ---
 
