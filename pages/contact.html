@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact HomeFinder - Get In Touch With Our Real Estate Experts</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">🏠</span>
+                        HomeFinder
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section bg-primary">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Contact HomeFinder</h1>
+                    <p class="hero-subtitle">Ready to find your dream property or need expert real estate advice? Our experienced team is here to help you every step of the way.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Whether you're buying, selling, or investing in real estate, our team of experienced professionals is ready to assist you. Contact us today to start your real estate journey.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-content">
+                                    <h3>Visit Our Office</h3>
+                                    <p>123 Real Estate Avenue<br>Downtown Business District<br>City, State 12345</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-content">
+                                    <h3>Call Us</h3>
+                                    <p>Office: (555) 123-4567<br>Mobile: (555) 987-6543<br>Toll-Free: 1-800-HOMES-NOW</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-content">
+                                    <h3>Email Us</h3>
+                                    <p>General: info@homefinder.com<br>Sales: sales@homefinder.com<br>Support: support@homefinder.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div class="contact-content">
+                                    <h3>Business Hours</h3>
+                                    <p>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday: 9:00 AM - 6:00 PM<br>Sunday: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-connect">
+                            <h3>Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link">📘 Facebook</a>
+                                <a href="#" class="social-link">📷 Instagram</a>
+                                <a href="#" class="social-link">🐦 Twitter</a>
+                                <a href="#" class="social-link">💼 LinkedIn</a>
+                                <a href="#" class="social-link">📺 YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <div class="contact-form" id="contactForm">
+                            <h2>Send Us a Message</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <span id="nameError" class="error-message"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <span id="emailError" class="error-message"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                    <span id="phoneError" class="error-message"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Inquiry Type *</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Select an option</option>
+                                        <option value="buying">I'm Looking to Buy</option>
+                                        <option value="selling">I Want to Sell My Property</option>
+                                        <option value="renting">Property Rental Inquiry</option>
+                                        <option value="investment">Investment Opportunities</option>
+                                        <option value="valuation">Property Valuation</option>
+                                        <option value="consultation">Free Consultation</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <span id="subjectError" class="error-message"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="budget">Budget Range (Optional)</label>
+                                    <select id="budget" name="budget">
+                                        <option value="">Select budget range</option>
+                                        <option value="under-250k">Under $250,000</option>
+                                        <option value="250k-500k">$250,000 - $500,000</option>
+                                        <option value="500k-750k">$500,000 - $750,000</option>
+                                        <option value="750k-1m">$750,000 - $1,000,000</option>
+                                        <option value="1m-plus">$1,000,000+</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your real estate needs, preferred locations, property type, timeline, or any specific questions you have..." required></textarea>
+                                    <span id="messageError" class="error-message"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" name="newsletter" value="yes">
+                                            Subscribe to our newsletter for market updates and new listings
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" name="terms" value="yes" required>
+                                            I agree to the <a href="#" style="color: var(--primary-color);">Terms of Service</a> and <a href="#" style="color: var(--primary-color);">Privacy Policy</a> *
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-loading" style="display: none;">Sending...</span>
+                                </button>
+                            </form>
+                        </div>
+                        
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <div class="success-icon">✅</div>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for contacting HomeFinder. We have received your message and will get back to you within 24 hours. Our team is excited to help you with your real estate needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Contact Section -->
+        <section class="quick-contact bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Need Immediate Assistance?</h2>
+                    <p>Choose the best way to reach us based on your needs</p>
+                </div>
+                
+                <div class="quick-contact-grid">
+                    <div class="quick-contact-item">
+                        <div class="contact-icon">🏠</div>
+                        <h3>Property Search</h3>
+                        <p>Looking for your dream home? Browse our extensive property database or let our agents help you find the perfect match.</p>
+                        <a href="properties.html" class="btn btn-secondary">Browse Properties</a>
+                    </div>
+                    
+                    <div class="quick-contact-item">
+                        <div class="contact-icon">💰</div>
+                        <h3>Property Valuation</h3>
+                        <p>Get a free, no-obligation property valuation from our certified appraisers and market experts.</p>
+                        <a href="tel:(555)123-4567" class="btn btn-secondary">Call for Valuation</a>
+                    </div>
+                    
+                    <div class="quick-contact-item">
+                        <div class="contact-icon">📋</div>
+                        <h3>Consultation</h3>
+                        <p>Schedule a free consultation with one of our real estate experts to discuss your buying or selling strategy.</p>
+                        <a href="mailto:info@homefinder.com" class="btn btn-secondary">Schedule Consultation</a>
+                    </div>
+                    
+                    <div class="quick-contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>Emergency Support</h3>
+                        <p>For urgent property matters, our emergency support team is available 24/7 to assist you.</p>
+                        <a href="tel:(555)987-6543" class="btn btn-secondary">Emergency Hotline</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="faq-container">
+                    <div class="section-header">
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Find answers to common questions about our real estate services</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" tabindex="0">
+                            <h3>How do I get started with buying a home?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Start by getting pre-approved for a mortgage to understand your budget. Then, schedule a consultation with one of our agents to discuss your preferences, timeline, and requirements. We'll help you navigate the entire process from property search to closing.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" tabindex="0">
+                            <h3>What's the best time to sell my property?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The best time varies based on local market conditions, your personal circumstances, and property type. Spring and early summer typically see higher activity, but we can provide a detailed market analysis to help you determine the optimal timing for your specific situation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" tabindex="0">
+                            <h3>Do you offer property management services?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We provide comprehensive property management services including tenant screening, rent collection, maintenance coordination, and financial reporting. Our experienced team ensures your investment property is well-maintained and profitable.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" tabindex="0">
+                            <h3>What are your commission rates?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our commission rates are competitive and vary based on the type of service and property value. We believe in transparent pricing and will discuss all fees upfront during your consultation. Contact us for a personalized quote.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question" tabindex="0">
+                            <h3>How long does it typically take to buy or sell a home?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Buying typically takes 30-45 days from offer acceptance to closing. Selling can vary widely based on market conditions, pricing, and property condition - anywhere from a few days to several months. We'll provide realistic timelines based on your specific situation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Visit Our Office</h2>
+                    <p>Located in the heart of the business district for your convenience</p>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <h3>📍 HomeFinder Real Estate</h3>
+                            <p>123 Real Estate Avenue<br>Downtown Business District<br>City, State 12345</p>
+                            <div class="map-features">
+                                <p>🅿️ Free parking available</p>
+                                <p>🚇 Metro accessible</p>
+                                <p>♿ Wheelchair accessible</p>
+                                <p>☕ Coffee available</p>
+                            </div>
+                            <a href="https://maps.google.com" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🏠</span>
+                        HomeFinder
+                    </div>
+                    <p>Your trusted partner in finding the perfect home. Making real estate dreams come true since 2009.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Home Buying</a></li>
+                        <li><a href="services.html">Home Selling</a></li>
+                        <li><a href="services.html">Property Management</a></li>
+                        <li><a href="services.html">Investment Consulting</a></li>
+                        <li><a href="services.html">Market Analysis</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p>📧 info@homefinder.com</p>
+                        <p>📞 (555) 123-4567</p>
+                        <p>📍 123 Real Estate Ave, City, State 12345</p>
+                        <p>🕒 Mon-Sun: 8AM-8PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 HomeFinder. All rights reserved. | Licensed Real Estate Brokerage</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
