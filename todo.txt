@@ -1,0 +1,36 @@
+HOME
+----
+
+when i turn on darkmode, the footer dark and text is white but lightmode make the footer white and color white[impedes visibility] and this is not right logically.
+
+In the next to find ou dream home, browse properties is visible but contact an agent isn't visible. also, toggling between dark and light mode does nothing to this section.
+
+The find your dream home filter section isn't well displayed on laptops; it is squezed on one half of the screen.
+
+PROPERTIES
+------
+The filter section is still white on darkmode. It should be fixed.
+
+On darkmode, the footer and popular searches are not visible i.e are white.
+
+About
+----
+in darkmode, the footer is not visible i.e is white without text.
+
+The browse properties and contact our team buttons should be given a margin below to space them from the footer.
+
+In darkmode, under our mission and values, the cards are white which violates the entire aspect of darkmode as is with the card under meet our team.
+
+
+
+*********
+I need a margin top on the footer in all pages to give the footer some breathing space.
+
+When I toggle darkmode on, the navbar picks and turns dark but when I scroll throuh t he page, it turns white.
+
+I also added images in the images/. Place each image where it ought to be.
+
+The buttons are slighly larer on mobile devices.
+
+
+Create a comprehensive project-readme. The live link is at https://brianoyaro.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/ Foolow the guidelines at README.md.

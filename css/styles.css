@@ -1265,15 +1265,17 @@ header {
 
 /* ===== FOOTER ===== */
 .footer {
-    background: var(--text-primary);
+    background: #1e293b;
     color: white;
     padding: var(--spacing-3xl) 0 var(--spacing-xl);
+    margin-top: var(--spacing-3xl);
 }
 
 footer {
-    background: var(--text-primary);
+    background: #1e293b;
     color: white;
     padding: var(--spacing-3xl) 0 var(--spacing-xl);
+    margin-top: var(--spacing-3xl);
 }
 
 .footer-content {
@@ -1463,18 +1465,25 @@ footer {
 
 /* Search Form in Hero */
 .search-form-container {
-    background: white;
+    background: var(--background);
     border-radius: var(--border-radius-lg);
     padding: var(--spacing-xl);
     box-shadow: var(--shadow-xl);
     margin-top: var(--spacing-xl);
+    border: 1px solid var(--border-color);
 }
 
 .property-search-form .search-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: var(--spacing-lg);
     align-items: end;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .property-search-form .search-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .property-search-form .search-field {
@@ -1754,6 +1763,7 @@ footer {
     gap: var(--spacing-lg);
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: var(--spacing-3xl);
 }
 
 /* Search and Filter Section */
@@ -1764,10 +1774,11 @@ footer {
 }
 
 .search-filter-container {
-    background: white;
+    background: var(--background);
     padding: var(--spacing-xl);
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
 }
 
 .advanced-search-form .search-grid {
@@ -1941,7 +1952,7 @@ footer {
 }
 
 .agent-card {
-    background: white;
+    background: var(--background);
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
     overflow: hidden;
@@ -2053,7 +2064,7 @@ footer {
 }
 
 .value-card {
-    background: white;
+    background: var(--background);
     padding: var(--spacing-xl);
     border-radius: var(--border-radius-lg);
     text-align: center;
@@ -2327,6 +2338,24 @@ footer {
     
     .grid-2 {
         grid-template-columns: 1fr;
+    }
+    
+    /* Mobile Button Sizing */
+    .btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.9rem;
+        min-width: auto;
+    }
+    
+    .hero-buttons {
+        gap: var(--spacing-md);
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        text-align: center;
     }
     
     .footer-content {
